@@ -13,6 +13,7 @@ new_kml_template = """<?xml version="1.0" encoding="UTF-8"?>
     <open>0</open>
     <Placemark>
         <name>!!!NAME!!!</name>
+        <Snippet>position of viewer</Snippet>
         <Point>
             <altitudeMode>relativeToGround</altitudeMode>
             <coordinates>!!!COORDINATES!!!</coordinates>
